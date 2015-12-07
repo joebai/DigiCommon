@@ -1,6 +1,5 @@
 {
     "name": "digi/common",
-    "version": "1.0.0",
     "description": "Holds all common code for Digitial Insurance Group Applications",
     "authors": [
         {
@@ -8,14 +7,7 @@
             "email": "tyler@digitalinsurancegroup.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
     "autoload": {
         "psr-4":{"Digi": "src"}
-    },
-    "extra":{
-        "branch-alias":{
-            "master": "1.0"
-        }
     }
 }
