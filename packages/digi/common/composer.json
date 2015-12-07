@@ -1,0 +1,12 @@
+{
+    "name": "digi/common",
+    "description": "Holds all common code for Digitial Insurance Group Applications",
+    "authors": [
+        {
+            "name": "Tyler",
+            "email": "tyler@digitalinsurancegroup.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
