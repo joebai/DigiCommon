@@ -8,5 +8,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4":{"Digi": "src"}
+    },
+    "extra":{
+        "branch-alias":{
+            "master": "1.0"
+        }
+    }
+
 }
