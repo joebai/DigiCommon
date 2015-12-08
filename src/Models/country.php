@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Digi\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -8,6 +8,6 @@ class country extends Model
 {
     public function Contacts()
     {
-    	return $this->hasMany("App\contact", "country");
+    	return $this->hasMany("Digi\Models\contact", "country");
     }
 }

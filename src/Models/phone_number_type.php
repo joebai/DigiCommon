@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Digi\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -9,6 +9,6 @@ class phone_number_type extends Model
 	protected $table = "phone_types";
     public function Contacts()
     {
-    	return $this->hasMany("App\contact", "phone_number_type");
+    	return $this->hasMany("Digi\Models\contact", "phone_number_type");
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Digi\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -8,21 +8,21 @@ class agent extends Model
 {
     public function Agency()
     {
-    	return $this->belongsTo("App\agency");
+    	return $this->belongsTo("Digi\Models\agency");
     }
 
     public function FriendlyName()
     {
-    	return $this->hasOne("App\\friendly_name");
+    	return $this->hasOne("Digi\Models\\friendly_name");
     }
 
     public function Contacts()
     {
-    	return $this->hasMany("App\contact");
+    	return $this->hasMany("Digi\Models\contact");
     }
 
     public function Leads()
     {
-        return $this->hasMany("App\lead");
+        return $this->hasMany("Digi\Models\lead");
     }
 }
