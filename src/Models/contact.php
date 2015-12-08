@@ -33,7 +33,7 @@ class contact extends Model
 
     public function PhoneNumberType()
     {
-    	return $this->belongsTo("Digi\Models\phone_number_type", "phone_number_type");
+    	return $this->belongsTo("Digi\Models\phone_type", "phone_number_type");
     }
 
     public function UrlType()
